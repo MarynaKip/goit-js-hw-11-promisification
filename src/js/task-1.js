@@ -1,8 +1,8 @@
 const delay = ms => {
   return new Promise(function (res, rej) {
     setTimeout(function () {
-      res(ms), ms;
-    });
+      res(ms);
+    }, ms);
   });
 };
 
